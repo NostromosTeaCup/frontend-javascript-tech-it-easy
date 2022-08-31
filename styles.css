@@ -1,0 +1,62 @@
+/******************GLOBAL STYLES****************/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif;
+}
+
+:root {
+    --background-color: #FEFEFE;
+    --darker-color: #051747;
+    --shadow-color: #535F8040;
+    --table-background: #E7E9F0;
+    --border: #081F6220;
+}
+
+/****************TYPOGRAPHY******************/
+
+h1 {
+    font-weight: 600;
+    margin: 20px;
+    color: var(--darker-color);
+}
+
+p {
+    margin: 8px 8px 8px 20px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+
+/*******************TABLE*********************/
+
+table {
+    margin: 20px;
+    border-radius: 8px;
+    width: 310px;
+    padding:12px;
+    box-shadow: 0 0 10px var(--shadow-color);
+    background-color: var(--table-background);
+    border: 1px solid var(--border);
+}
+
+th, td {
+    text-align: left;
+    font-weight: 200;
+    padding: 4px 0 12px 0;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px double var(--border);
+    color: var(--darker-color);
+    text-align: center;
+}
